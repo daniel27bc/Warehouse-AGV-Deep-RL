@@ -1,0 +1,65 @@
+{
+    "GestorLogistico": {
+        "checkpoints": [
+            {
+                "steps": 695139,
+                "file_path": "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-695139.onnx",
+                "reward": 18.261295151066136,
+                "creation_time": 1779692010.0462852,
+                "auxillary_file_paths": [
+                    "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-695139.pt"
+                ]
+            },
+            {
+                "steps": 699968,
+                "file_path": "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-699968.onnx",
+                "reward": 17.61649044531363,
+                "creation_time": 1779706143.961262,
+                "auxillary_file_paths": [
+                    "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-699968.pt"
+                ]
+            },
+            {
+                "steps": 799978,
+                "file_path": "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-799978.onnx",
+                "reward": 16.276823771627324,
+                "creation_time": 1779717932.9183202,
+                "auxillary_file_paths": [
+                    "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-799978.pt"
+                ]
+            },
+            {
+                "steps": 899989,
+                "file_path": "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-899989.onnx",
+                "reward": 17.893999701640645,
+                "creation_time": 1779731591.2659388,
+                "auxillary_file_paths": [
+                    "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-899989.pt"
+                ]
+            },
+            {
+                "steps": 919300,
+                "file_path": "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-919300.onnx",
+                "reward": 19.03439969366247,
+                "creation_time": 1779734215.1094518,
+                "auxillary_file_paths": [
+                    "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-919300.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 919300,
+            "file_path": "results\\E6_Gestor_v1\\GestorLogistico.onnx",
+            "reward": 19.03439969366247,
+            "creation_time": 1779734215.1094518,
+            "auxillary_file_paths": [
+                "results\\E6_Gestor_v1\\GestorLogistico\\GestorLogistico-919300.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

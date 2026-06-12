@@ -1,0 +1,65 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 20999970,
+                "file_path": "results\\E4_RectificarColisiones\\Robot\\Robot-20999970.onnx",
+                "reward": 0.03538034545878569,
+                "creation_time": 1777878256.6596668,
+                "auxillary_file_paths": [
+                    "results\\E4_RectificarColisiones\\Robot\\Robot-20999970.pt"
+                ]
+            },
+            {
+                "steps": 21499972,
+                "file_path": "results\\E4_RectificarColisiones\\Robot\\Robot-21499972.onnx",
+                "reward": -0.09740629396401346,
+                "creation_time": 1777879120.8510268,
+                "auxillary_file_paths": [
+                    "results\\E4_RectificarColisiones\\Robot\\Robot-21499972.pt"
+                ]
+            },
+            {
+                "steps": 21999972,
+                "file_path": "results\\E4_RectificarColisiones\\Robot\\Robot-21999972.onnx",
+                "reward": 0.6756250262260437,
+                "creation_time": 1777879998.5659137,
+                "auxillary_file_paths": [
+                    "results\\E4_RectificarColisiones\\Robot\\Robot-21999972.pt"
+                ]
+            },
+            {
+                "steps": 22499990,
+                "file_path": "results\\E4_RectificarColisiones\\Robot\\Robot-22499990.onnx",
+                "reward": 0.3452456795820439,
+                "creation_time": 1777880877.3993318,
+                "auxillary_file_paths": [
+                    "results\\E4_RectificarColisiones\\Robot\\Robot-22499990.pt"
+                ]
+            },
+            {
+                "steps": 22834721,
+                "file_path": "results\\E4_RectificarColisiones\\Robot\\Robot-22834721.onnx",
+                "reward": 0.11311429158917495,
+                "creation_time": 1777881537.658894,
+                "auxillary_file_paths": [
+                    "results\\E4_RectificarColisiones\\Robot\\Robot-22834721.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 22834721,
+            "file_path": "results\\E4_RectificarColisiones\\Robot.onnx",
+            "reward": 0.11311429158917495,
+            "creation_time": 1777881537.658894,
+            "auxillary_file_paths": [
+                "results\\E4_RectificarColisiones\\Robot\\Robot-22834721.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

@@ -1,0 +1,49 @@
+# ============================================================================
+# E6 — Entrenamiento del Gestor Logístico con Redirección Dinámica
+# ============================================================================
+# Este archivo configura exclusivamente el cerebro del GestorLogistico.
+# Asume que los Robots operan en modo inferencia congelada (usando su ONNX).
+# ============================================================================
+
+behaviors:
+  GestorLogistico:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 512
+      buffer_size: 5120
+      learning_rate: 3.0e-4
+      beta: 1.0e-2       # Coeficiente de entropía para animar a la exploración
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+      beta_schedule: linear
+    network_settings:
+      normalize: true    # Normalización automática de las 38 observaciones
+      hidden_units: 128
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    max_steps: 5000000   # 5 millones de pasos de simulación
+    time_horizon: 64     # Decisiones cortas
+    summary_freq: 5000
+    checkpoint_interval: 100000
+    keep_checkpoints: 5
+
+env_settings:
+  env_path: null         # Entrenamiento interactivo en el Editor de Unity
+  base_port: 5005
+  num_envs: 1
+  timeout_wait: 60
+
+engine_settings:
+  time_scale: 20         # Acelerar la simulación x20 para entrenar más rápido
+  target_frame_rate: -1
+  capture_frame_rate: 60
+
+checkpoint_settings:
+  run_id: E6_Gestor_Redireccion
+  resume: false
+  force: true

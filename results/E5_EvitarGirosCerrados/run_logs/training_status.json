@@ -1,0 +1,47 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 499969,
+                "file_path": "results\\E5_EvitarGirosCerrados\\Robot\\Robot-499969.onnx",
+                "reward": -0.8513043667965879,
+                "creation_time": 1778636173.5508633,
+                "auxillary_file_paths": [
+                    "results\\E5_EvitarGirosCerrados\\Robot\\Robot-499969.pt"
+                ]
+            },
+            {
+                "steps": 999971,
+                "file_path": "results\\E5_EvitarGirosCerrados\\Robot\\Robot-999971.onnx",
+                "reward": -0.5477367303799838,
+                "creation_time": 1778648552.6977098,
+                "auxillary_file_paths": [
+                    "results\\E5_EvitarGirosCerrados\\Robot\\Robot-999971.pt"
+                ]
+            },
+            {
+                "steps": 1153699,
+                "file_path": "results\\E5_EvitarGirosCerrados\\Robot\\Robot-1153699.onnx",
+                "reward": -0.5269216707286736,
+                "creation_time": 1778652450.5528786,
+                "auxillary_file_paths": [
+                    "results\\E5_EvitarGirosCerrados\\Robot\\Robot-1153699.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1153699,
+            "file_path": "results\\E5_EvitarGirosCerrados\\Robot.onnx",
+            "reward": -0.5269216707286736,
+            "creation_time": 1778652450.5528786,
+            "auxillary_file_paths": [
+                "results\\E5_EvitarGirosCerrados\\Robot\\Robot-1153699.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

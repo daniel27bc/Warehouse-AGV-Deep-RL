@@ -1,0 +1,65 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 18999984,
+                "file_path": "results\\E.2_NavegacionObstaculos\\Robot\\Robot-18999984.onnx",
+                "reward": 0.8013181894678961,
+                "creation_time": 1774265926.680226,
+                "auxillary_file_paths": [
+                    "results\\E.2_NavegacionObstaculos\\Robot\\Robot-18999984.pt"
+                ]
+            },
+            {
+                "steps": 19499994,
+                "file_path": "results\\E.2_NavegacionObstaculos\\Robot\\Robot-19499994.onnx",
+                "reward": 0.853952480341531,
+                "creation_time": 1774266726.657631,
+                "auxillary_file_paths": [
+                    "results\\E.2_NavegacionObstaculos\\Robot\\Robot-19499994.pt"
+                ]
+            },
+            {
+                "steps": 19999989,
+                "file_path": "results\\E.2_NavegacionObstaculos\\Robot\\Robot-19999989.onnx",
+                "reward": 0.7711677866919129,
+                "creation_time": 1774267568.5527442,
+                "auxillary_file_paths": [
+                    "results\\E.2_NavegacionObstaculos\\Robot\\Robot-19999989.pt"
+                ]
+            },
+            {
+                "steps": 20499962,
+                "file_path": "results\\E.2_NavegacionObstaculos\\Robot\\Robot-20499962.onnx",
+                "reward": 0.8586212145446828,
+                "creation_time": 1774268791.328965,
+                "auxillary_file_paths": [
+                    "results\\E.2_NavegacionObstaculos\\Robot\\Robot-20499962.pt"
+                ]
+            },
+            {
+                "steps": 20802423,
+                "file_path": "results\\E.2_NavegacionObstaculos\\Robot\\Robot-20802423.onnx",
+                "reward": 0.8661172241329006,
+                "creation_time": 1774269685.7541087,
+                "auxillary_file_paths": [
+                    "results\\E.2_NavegacionObstaculos\\Robot\\Robot-20802423.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20802423,
+            "file_path": "results\\E.2_NavegacionObstaculos\\Robot.onnx",
+            "reward": 0.8661172241329006,
+            "creation_time": 1774269685.7541087,
+            "auxillary_file_paths": [
+                "results\\E.2_NavegacionObstaculos\\Robot\\Robot-20802423.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

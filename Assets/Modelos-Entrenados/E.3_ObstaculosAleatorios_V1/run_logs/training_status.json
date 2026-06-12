@@ -1,0 +1,65 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 37499967,
+                "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-37499967.onnx",
+                "reward": 0.9230000058809916,
+                "creation_time": 1774866340.458173,
+                "auxillary_file_paths": [
+                    "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-37499967.pt"
+                ]
+            },
+            {
+                "steps": 37999962,
+                "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-37999962.onnx",
+                "reward": 0.6975553537481826,
+                "creation_time": 1774867127.0641522,
+                "auxillary_file_paths": [
+                    "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-37999962.pt"
+                ]
+            },
+            {
+                "steps": 38499951,
+                "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38499951.onnx",
+                "reward": 0.7233354828050059,
+                "creation_time": 1774867937.4943728,
+                "auxillary_file_paths": [
+                    "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38499951.pt"
+                ]
+            },
+            {
+                "steps": 38679333,
+                "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38679333.onnx",
+                "reward": 0.9262500107288361,
+                "creation_time": 1774868331.5288234,
+                "auxillary_file_paths": [
+                    "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38679333.pt"
+                ]
+            },
+            {
+                "steps": 38731970,
+                "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38731970.onnx",
+                "reward": 0.5384069749175809,
+                "creation_time": 1774868888.614592,
+                "auxillary_file_paths": [
+                    "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38731970.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 38731970,
+            "file_path": "results\\E.3_ObstaculosAleatorios_V1\\Robot.onnx",
+            "reward": 0.5384069749175809,
+            "creation_time": 1774868888.614592,
+            "auxillary_file_paths": [
+                "results\\E.3_ObstaculosAleatorios_V1\\Robot\\Robot-38731970.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

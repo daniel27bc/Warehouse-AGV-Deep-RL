@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1774182634",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Daniel Bustos\\miniconda3\\envs\\mlagents\\Scripts\\mlagents-learn config/E.1_SoloNavegacion.yaml --run-id=E.1_SoloNavegacion_a_objetivo --force",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.2+cu118",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1774182648"
+    },
+    "total": 14.387167000037152,
+    "count": 1,
+    "self": 0.012387300026603043,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1557829999946989,
+            "count": 1,
+            "self": 0.1557829999946989
+        },
+        "TrainerController.start_learning": {
+            "total": 14.21899670001585,
+            "count": 1,
+            "self": 0.00012740003876388073,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 14.218849400000181,
+                    "count": 1,
+                    "self": 14.218849400000181
+                },
+                "TrainerController._save_models": {
+                    "total": 1.9899976905435324e-05,
+                    "count": 1,
+                    "self": 1.9899976905435324e-05
+                }
+            }
+        }
+    }
+}

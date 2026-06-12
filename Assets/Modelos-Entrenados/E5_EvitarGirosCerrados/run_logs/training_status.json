@@ -1,0 +1,29 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 2664,
+                "file_path": "results\\E5_EvitarGirosCerrados\\Robot\\Robot-2664.onnx",
+                "reward": -6.857553397233669,
+                "creation_time": 1778606269.723122,
+                "auxillary_file_paths": [
+                    "results\\E5_EvitarGirosCerrados\\Robot\\Robot-2664.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2664,
+            "file_path": "results\\E5_EvitarGirosCerrados\\Robot.onnx",
+            "reward": -6.857553397233669,
+            "creation_time": 1778606269.723122,
+            "auxillary_file_paths": [
+                "results\\E5_EvitarGirosCerrados\\Robot\\Robot-2664.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}

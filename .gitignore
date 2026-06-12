@@ -1,0 +1,87 @@
+# =========================================================================
+# GITIGNORE PARA PROYECTO TFG: UNITY + ML-AGENTS + PYTHON
+# =========================================================================
+
+# --- Carpetas temporales y de caché de Unity ---
+[I|i]nitialized/
+[L|l]ibrary/
+[L|l]ogs/
+[T|t]emp/
+[U|u]ser[S|s]ettings/
+[B|b]uild/
+[B|b]uilds/
+[A|a]ssets/AssetStoreTools*
+
+# --- Archivos generados por editores y compiladores en Unity ---
+sysinfo.txt
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+*.db
+crashlytics-build.properties
+
+# --- Archivos de sistema operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Archivos de Python y entornos virtuales ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# --- Archivos temporales de MS Office (Word, Excel, etc.) ---
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+~$*.pdf
+
+# --- Temporales específicos de scripts de edición del TFG ---
+Memoria_TFG/temp_docx/
+Memoria_TFG/unpacked_tfg/
+temp_docx/
+unpacked_tfg/
+
+# --- Configuraciones locales del agente de IA (Claude/MCP) ---
+.claude/
+.mcp.json
+mcp_bridge/
+scratch/
+
+# --- Exclusiones para publicación en GitHub (añadido 12/06/2026) ---
+# Assets de terceros: licencias de Asset Store prohíben redistribución + tamaño
+Assets/ASSETS DE 3os/
+Assets/Textures/
+Assets/Audio/
+Assets/Hdri/
+Assets/Unity.VisualScripting.Generated/
+# Memoria: borradores y notas personales fuera; el PDF final está en docs/
+Memoria_TFG/
+# Cuarentena de limpieza
+_duplicados_para_borrar/
+
+# Privado / no publicar
+scratch/
+mcp_bridge/

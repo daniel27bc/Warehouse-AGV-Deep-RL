@@ -1,0 +1,65 @@
+{
+    "Robot": {
+        "checkpoints": [
+            {
+                "steps": 3499970,
+                "file_path": "results\\E.1_SoloNavegacion\\Robot\\Robot-3499970.onnx",
+                "reward": 0.9504677376439494,
+                "creation_time": 1774189837.573513,
+                "auxillary_file_paths": [
+                    "results\\E.1_SoloNavegacion\\Robot\\Robot-3499970.pt"
+                ]
+            },
+            {
+                "steps": 3999993,
+                "file_path": "results\\E.1_SoloNavegacion\\Robot\\Robot-3999993.onnx",
+                "reward": 0.944932427357983,
+                "creation_time": 1774190601.8820937,
+                "auxillary_file_paths": [
+                    "results\\E.1_SoloNavegacion\\Robot\\Robot-3999993.pt"
+                ]
+            },
+            {
+                "steps": 4499998,
+                "file_path": "results\\E.1_SoloNavegacion\\Robot\\Robot-4499998.onnx",
+                "reward": 0.9502969081922835,
+                "creation_time": 1774191381.0081406,
+                "auxillary_file_paths": [
+                    "results\\E.1_SoloNavegacion\\Robot\\Robot-4499998.pt"
+                ]
+            },
+            {
+                "steps": 4999989,
+                "file_path": "results\\E.1_SoloNavegacion\\Robot\\Robot-4999989.onnx",
+                "reward": 0.9494536371519234,
+                "creation_time": 1774192118.8122942,
+                "auxillary_file_paths": [
+                    "results\\E.1_SoloNavegacion\\Robot\\Robot-4999989.pt"
+                ]
+            },
+            {
+                "steps": 5251785,
+                "file_path": "results\\E.1_SoloNavegacion\\Robot\\Robot-5251785.onnx",
+                "reward": 0.9511827935454666,
+                "creation_time": 1774192565.1504745,
+                "auxillary_file_paths": [
+                    "results\\E.1_SoloNavegacion\\Robot\\Robot-5251785.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5251785,
+            "file_path": "results\\E.1_SoloNavegacion\\Robot.onnx",
+            "reward": 0.9511827935454666,
+            "creation_time": 1774192565.1504745,
+            "auxillary_file_paths": [
+                "results\\E.1_SoloNavegacion\\Robot\\Robot-5251785.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.1.2+cu118"
+    }
+}
